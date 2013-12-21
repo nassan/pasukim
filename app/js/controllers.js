@@ -16,6 +16,10 @@ function pasukimListController($scope,$http)
 		$scope.pasukim = pasukimFromJSON;
 		
 	});
-	// };
-	// $scope.testString = 'בראשית ברא אלהים את השמים ואת הארץ';
+
+	$scope.test = "Testing ...";
+	$scope.change = function(str){
+		$scope.test = str;
+	};
+
 }
